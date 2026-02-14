@@ -1,0 +1,511 @@
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam.eot");
+  src:
+    url("Shabnam.eot?#iefix") format("embedded-opentype"),
+    url("Shabnam.woff2") format("woff2"),
+    url("Shabnam.woff") format("woff"),
+    url("Shabnam.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam-Bold.eot");
+  src:
+    url("Shabnam-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Shabnam-Bold.woff2") format("woff2"),
+    url("Shabnam-Bold.woff") format("woff"),
+    url("Shabnam-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam-Thin.eot");
+  src:
+    url("Shabnam-Thin.eot?#iefix") format("embedded-opentype"),
+    url("Shabnam-Thin.woff2") format("woff2"),
+    url("Shabnam-Thin.woff") format("woff"),
+    url("Shabnam-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam-Light.eot");
+  src:
+    url("Shabnam-Light.eot?#iefix") format("embedded-opentype"),
+    url("Shabnam-Light.woff2") format("woff2"),
+    url("Shabnam-Light.woff") format("woff"),
+    url("Shabnam-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam-Medium.eot");
+  src:
+    url("Shabnam-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Shabnam-Medium.woff2") format("woff2"),
+    url("Shabnam-Medium.woff") format("woff"),
+    url("Shabnam-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("Sahel.eot");
+  src:
+    url("Sahel.eot?#iefix") format("embedded-opentype"),
+    url("Sahel.woff2") format("woff2"),
+    url("Sahel.woff") format("woff"),
+    url("Sahel.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("Sahel-Bold.eot");
+  src:
+    url("Sahel-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Sahel-Bold.woff2") format("woff2"),
+    url("Sahel-Bold.woff") format("woff"),
+    url("Sahel-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("Sahel-Light.eot");
+  src:
+    url("Sahel-Light.eot?#iefix") format("embedded-opentype"),
+    url("Sahel-Light.woff2") format("woff2"),
+    url("Sahel-Light.woff") format("woff"),
+    url("Sahel-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("Sahel-SemiBold.eot");
+  src:
+    url("Sahel-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("Sahel-SemiBold.woff2") format("woff2"),
+    url("Sahel-SemiBold.woff") format("woff"),
+    url("Sahel-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("Sahel-Black.eot");
+  src:
+    url("Sahel-Black.eot?#iefix") format("embedded-opentype"),
+    url("Sahel-Black.woff2") format("woff2"),
+    url("Sahel-Black.woff") format("woff"),
+    url("Sahel-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/webfonts/Vazirmatn-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Primary brand colors */
+  --color-primary: #1f3b4d; /* Deep navy – trust, professional */
+  --color-secondary: #f2a541; /* Warm gold – accents, CTA, luxury */
+  --color-accent: #e06e50; /* Soft burnt orange – highlights */
+
+  /* Background / surfaces */
+  --color-bg-light: #faf9f6; /* Soft cream, clean background */
+  --color-bg-dark: #2c3e50; /* Dark navy for footer, header */
+
+  /* Text colors */
+  --color-text-main: #2c3e50; /* Dark navy / grayish, readable */
+  --color-text-secondary: #7f8c8d; /* Medium gray, secondary text */
+  --color-text-inverse: #ffffff; /* For dark backgrounds */
+
+  /* Borders / shadows */
+  --color-border: #dadada;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+
+  /* Typography */
+  --font-heading: "Shabnam", "Sahel", serif;
+  --font-body: "Vazir", "Shabnam", Tahoma, sans-serif;
+
+  /* Font weights */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+
+  /* Layout spacing */
+  --section-padding: 40px;
+  --card-padding: 20px;
+  --border-radius: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-feature-settings: "tnum";
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: var(--fw-regular);
+  color: var(--color-text-main);
+  background-color: var(--color-background);
+  direction: rtl;
+  text-align: right;
+  line-height: 1.5;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-main);
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p,
+li,
+span {
+  font-family: var(--font-body);
+  font-weight: var(--fw-regular);
+  color: var(--color-text-main);
+}
+
+/* Links */
+a {
+  color: var(--color-primary);
+  display: block;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--color-highlight);
+}
+
+/* Buttons */
+button,
+.btn {
+  font-family: var(--font-body);
+  font-weight: var(--fw-bold);
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  border: none;
+  background-color: var(--color-primary);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover,
+.btn:hover {
+  background-color: var(--color-highlight);
+}
+
+/* Sections */
+section {
+  padding: var(--section-padding) 20px;
+}
+
+/* --- Navigation Bar --- */
+nav {
+  display: flex;
+  gap: 14px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background: var(--color-primary);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: var(--color-text-inverse);
+  border-radius: 2px;
+}
+
+.nav__link {
+  color: var(--color-text-inverse);
+  margin-right: 25px;
+  font-weight: var(--fw-medium);
+  transition: color 0.3s;
+}
+
+.nav__link:hover {
+  color: var(--color-secondary);
+}
+
+.nav__link.active {
+  color: var(--color-secondary);
+}
+
+.branding svg {
+  height: 45px;
+  color: var(--color-bg-light);
+  transition: color 0.3s;
+}
+
+.branding svg:hover {
+  color: var(--color-secondary);
+}
+
+/* Footer Styling */
+footer {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-inverse);
+  padding: 70px 0 20px;
+  font-size: 0.95rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+  padding: 0 20px;
+}
+
+.footer-col h4 {
+  color: var(--color-secondary);
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer-col h4::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: var(--color-accent);
+}
+
+.footer-col p {
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-col a {
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer-col a:hover {
+  color: var(--color-secondary);
+  transform: translateX(-5px);
+}
+
+.footer-col:last-child ul li {
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  padding-right: 0;
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  padding: 20px 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footer-col h4::after {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .footer-col ul li {
+    justify-content: center;
+  }
+
+  .footer-col a:hover {
+    transform: translateY(-3px);
+  }
+
+  .nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 5%;
+  }
+
+  .branding svg {
+    height: 35px;
+  }
+
+    .hamburger-menu {
+    display: flex;
+    z-index: 1001;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .nav__link {
+    margin: 15px 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .hamburger-menu.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-menu.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .hamburger-menu span {
+    transition: all 0.3s ease;
+  }
+}
